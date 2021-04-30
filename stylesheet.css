@@ -1,0 +1,471 @@
+body {
+    font-family: Verdana,Arial,Helvetica,'meirio','メイリオ','Hiragino Maru Gothic Pro','ヒラギノ丸ゴ Pro W4','Osaka','ＭＳ Ｐゴシック',sans-serif;
+    box-sizing: border-box;
+    border-top: solid 8px #6cc6c4;
+    background-color: #f6f6f6;
+    color: #515151;
+    line-height: 18px;
+}
+
+a:link, a:visited {
+    color: #4d82c4;
+}
+
+a:hover, a:active {
+    color: #cc4866;
+}
+
+#wrap {
+    width: 920px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto; 
+    
+}
+
+#header-wrap {
+    margin-bottom: 20px;
+    height: 200px;
+    width: 920px;
+}
+
+#header {
+    position: relative;
+    height: 200px;
+    
+}
+
+.site-title {
+    position: absolute;
+    top: 50px;
+    left: 0;
+}
+
+#header-wrap a {
+    text-decoration: none;
+}
+
+.description {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    font-size: 10px;
+}
+
+.header-address {
+    position: absolute;
+    top: 35px;
+    right: 0;
+    height: 75px;
+    width: 220px;
+}
+
+.header-address .tel {
+    background: url(bgTel.png) left no-repeat;
+    text-align: right;
+    font-size: 25.61px;
+    padding: 0 0 0 25px;
+    line-height: 46px;
+}
+
+.header-address .time {
+    font-size: 10px;
+    text-align: center;
+    border: solid 1px #d6d6d6;
+    padding: 5px 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 220px;
+}
+
+.header-address .hot {
+    color: #b22c00;
+}
+
+#nav {
+    position: absolute;
+    bottom: 0;
+    width: 920px;
+}
+
+#nav ul {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-weight: bold;
+    background-image: linear-gradient(rgb(156,227,225) 0%,rgb(108,198,196) 100%);
+    border: solid 1px #6cc6c4;
+    border-radius: 6px;
+}
+
+#nav li {
+    height: 70px;
+    width: 182px;
+    
+    
+}
+
+#nav a {
+    width: 182px;
+    display: block;
+    padding: 17px 0 18px;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px #6cc6c4;
+    border-right: solid 1px #71c9c7;
+    border-left: solid 1px #99e1df;
+    
+
+}
+
+#nav .title-ja {
+    display: block;
+    font-size: 14.04px;
+    height: 20px;
+    line-height: 20px;
+}
+
+#nav .title-en {
+    display: block;
+    font-size: 10.01px;
+    height: 15px;
+    line-height: 15px;
+}
+
+#nav a:link,a:visited {
+    border-right: solid 1px #71c9c7;
+    border-left: solid 1px #99e1df;
+    
+}
+
+#nav .first:link,.first:visited {
+    
+}
+
+#nav .last:link,.last:visited {
+    border-right: none;
+}
+
+#nav a:hover,a:active {
+    background: linear-gradient(#71c9c7,#99e1df);
+    color: #c1fffd;
+}
+
+#contents-wrap {
+    height: ;
+    width: 920px;
+    
+}
+
+#main {
+    float: right;
+    width: 640px;
+}
+
+.inner {
+    background-color: #ffffff;
+    padding: 20px;
+    
+}
+
+.top-img {
+    vertical-align: top;
+    margin-bottom: 7px;
+}
+
+.news {
+    padding-left: 
+}
+
+#main .sub-title {
+    border-bottom: solid 3px #6cc6c4;
+    font-size: 16.003px;
+    height: 50px;
+    line-height: 50px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding-bottom: 0.5px;
+}
+
+#main dl {
+    font-size: 13px;
+    padding: 0 10px 10px 10px;
+    margin-bottom: 15px;
+    line-height: 19.50px;
+}
+
+#main dt {
+    float: left;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+#main dd {
+    padding: 10px 10px 10px 11em;
+    border-bottom: dotted 1px #cccccc;
+}
+
+#menu {
+    float: left;
+    width: 260px;
+}
+
+#menu h2 {
+    background: linear-gradient(#99e1df, #71c9c7);
+    height: 40px;
+    line-height: 40px;
+    padding: 0 15px;
+    color: #fff;
+    border: solid 1px #6cc6c4;
+    border-radius: 6px 6px 0 0;
+    font-weight: bold;
+}
+
+.menu-list1 {
+    border: solid 1px #6cc6c4;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    background-color: #ffffff;
+}
+
+.menu-list2 {
+    border: solid 1px #6cc6c4;
+    padding-bottom: 20px;
+    background-color: #ffffff;
+}
+
+#menu li {
+    border-bottom: solid 1px #6cc6c4;
+    margin: 0 12px;
+    background: url(bgListIcon01.png) no-repeat 5px center;
+    padding-left: 25px;
+    line-height: 25px;
+}
+
+#menu a {
+    display: block;
+    text-decoration: none;
+    padding: 8px 0;
+    color: #595959;
+    font-weight: bold;
+    font-size: 14.04px;
+}
+
+#menu .menu-list1 a:hover,a:active {
+    color: #6cc6c4;
+}
+
+#menu .menu-list2 a:hover,a:active {
+    color: #aec24c;
+}
+
+#footer-wrap {
+    margin-top: 20px;
+    height: 130px;
+}
+
+#footer ul {
+    display: flex;
+    background-color: #6cc6c4;
+    font-size: 13px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 15px;
+    border-radius: 6px;
+}
+
+#footer li {
+    background: url(bgFooterIcon.png) no-repeat left;
+    padding-left: 25px;
+}
+
+#footer a{
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    padding: 0 20px 0 0;
+}
+
+#footer a:hover,a:active {
+    text-decoration: underline;
+}
+
+.footer-address {
+    text-align: right;
+    height: 50px;
+    line-height: 50px;
+    font-size: 13px;
+    border-bottom: solid 2px #6cc6c4;
+}
+
+.footer-address span {
+    font-weight: bold;
+}
+
+.copyright {
+    font-size: 12.09px;
+    text-align: center;
+    padding: 10px 0;
+    line-height: 22px;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/*パンくずリスト*/
+
+.pan-list {
+    margin: -10px 0 10px 0;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 5px;
+}
+
+.pan-list li {
+    font-size: 10.01px;
+    display: inline-block;
+}
+
+.pan-list .pan-clinic::after {
+    content: '> 医院紹介';
+    padding-left: 4px;
+}
+
+.pan-list .pan-service::after {
+    content: '> 診療案内';
+    padding-left: 4px;
+}
+
+.pan-list .pan-staff::after {
+    content: '> 院長・スタッフ紹介';
+    padding-left: 4px;
+}
+
+.pan-list .pan-access::after {
+    content: '> アクセス';
+    padding-left: 4px;
+}
+
+/*医院紹介ページ*/
+
+#main .main-title {
+    padding: 41px 0 41px 20px;
+    background: linear-gradient(rgb(156,227,225) 0%,rgb(108,198,196) 100%);
+    color: #fff;
+    border: solid 1px #6cc6c4;
+    border-radius: 6px 6px 0 0;
+    font-size: 19.5px;
+    font-weight: bold;
+}
+
+#main .sub-title2 {
+    color: #6cc6c4;
+    font-size: 15.21px;
+    font-weight: bold;
+    margin: 15.21px 0;
+    line-height: 26.6px;
+}
+
+#main .clinic-text {
+    font-size: 13px;
+    padding: 10px;
+    
+}
+
+#main .clinic-text p {
+    margin: 13px 0;
+    line-height: 23.4px;
+}
+
+.clinic-table {
+    border-top: solid 1px #999;
+    border-left: solid 1px #999;
+    width: 100%;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.clinic-table th,td {
+    border-right: solid 1px #999;
+    border-bottom: solid 1px #999;
+    padding: 10px;
+    text-align: center;
+    line-height: 24px;
+}
+
+.clinic-table th {
+    background-color: #d1d1d1;
+    font-weight: bold;
+}
+
+.clinic-day {
+    font-size: 13px;
+}
+
+.clinic-day span {
+    font-weight: bold;
+}
+
+.clinic-day p {
+    margin: 13px 0;
+    line-height: 23.4px
+}
+
+.service-space {
+    padding-bottom: 40px; 
+}
+
+.inner p {
+    font-size: 13px;
+    margin: 13px 0;
+    line-height: 23.4px;
+}
+
+.doctor {
+    margin-bottom: 30px;
+}
+
+.doctor-left {
+    float: left;
+}
+
+.doctor-right {
+    float: right;
+    width: 380px;
+}
+
+.doctor-left p {
+    background-color: #6cc6c4;
+    color: #fff;
+    text-align: center;
+    margin: 13px 0 11px 0;
+}
+
+.doctor-left img {
+    margin-bottom: 3.5px;
+}
+
+.inner .staff-p {
+    margin: 20px 0 13px 0;
+}
+
+.bigmap {
+    font-size: 10.8333px;
+}
+
+hr {
+    border: solid 2px #6cc6c4;
+}
+
+.access-img {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 6px;
+}
+
+.access-text {
+    float: left;
+}
